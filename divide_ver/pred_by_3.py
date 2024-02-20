@@ -287,7 +287,7 @@ def read_data(datedata, timestamp, len_closeness=3, len_period=1, len_trend=1):
 
     #返回需要的日期-時間點
     xc_time, xp_time, xt_time = create_timestamp(timestamp)
-    
+    print(f'xc_time: {xc_time}, xp_time: {xp_time}, xt_time: {xt_time}')
     #讀取c, p, t的時間點資料
     #closeness
     for xc_t in xc_time:
@@ -376,18 +376,18 @@ def read_data(datedata, timestamp, len_closeness=3, len_period=1, len_trend=1):
                 p_d = list(park_p[park_time_title[park_index]].values)
                 p_d = checkvalue(p_d, park_latlon, park_id, state=True)
                 print(f'[period]p_d size: {len(p_d)}') # debug
-                p_d = np.reshape(p_d, (15, 16))
+                # p_d = np.reshape(p_d, (15, 16))
                 park_data.append(p_d)
             if v_t.find(str(vd_predict_time)) != -1:
                 vd_index = list(vd_time_title).index(v_t)
                 v_d = list(vd_p[vd_time_title[vd_index]].values)
                 v_d = checkvalue(v_d, vd_latlon, vd_id, state=False)
                 print(f'[period]v_d size: {len(v_d)}') # debug
-                v_d = np.reshape(v_d, (15, 16))
+                # v_d = np.reshape(v_d, (15, 16))
                 vd_data.append(v_d)
-
-        # park_data = np.reshape(park_data, (15, 16))
-        # vd_data = np.reshape(vd_data, (15, 16))
+        
+        park_data = np.reshape(park_data, (15, 16))
+        vd_data = np.reshape(vd_data, (15, 16))
         park_data = np.asarray(park_data)
         vd_data = np.asarray(vd_data)
         park_data = MinMaxNormalization(park_data, state='park')

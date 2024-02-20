@@ -334,7 +334,7 @@ def read_data(datedata, timestamp, len_closeness=3, len_period=1, len_trend=1):
                 v_d = np.reshape(v_d, (15, 16))
                 vd_data.append(v_d)
         
-        print(f'park_data size: {len(park_data)}\n') # debug
+        # print(f'park_data size: {len(park_data)}\n') # debug
         # print(park_data)# debug
         # park_data = np.reshape(park_data, (15, 16))
         # vd_data = np.reshape(vd_data, (15, 16))

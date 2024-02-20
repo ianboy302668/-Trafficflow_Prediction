@@ -1,0 +1,313 @@
+##--Use Average Spearman Correlation--##
+
+model1:
+--------------------------------------
+1. use average spearman correlation
+2. residual units = 1
+
+train time = 11 mins
+test time = 26 mins
+
+rmse(vd) = 4.58
+rmse(park) = 5.40
+mape(vd) = 7.20
+mape(park) = 1.40
+--------------------------------------
+
+model1_ver:
+--------------------------------------
+1. use average spearman correlation
+2. residual units = 1
+
+train time = 11 mins
+test time = 25 mins
+
+rmse(vd) = 4.58
+rmse(park) = 5.66
+mape(vd) = 6.89
+mape(park) = 1.76
+--------------------------------------
+
+model1_ver2:
+--------------------------------------
+1. use average spearman correlation
+2. residual units = 1
+
+train time = 11 mins
+test time = 25 mins
+
+rmse(vd) = 4.50
+rmse(park) = 7.76
+mape(vd) = 7.10
+mape(park) = 2.81
+--------------------------------------
+
+model2:
+--------------------------------------
+1. use average spearman correlation
+2. residual units = 2
+
+train time = 12 mins
+test time = 31 mins
+
+rmse(vd) = 5.18
+rmse(park) = 5.45
+mape(vd) = 7.87
+mape(park) = 1.56
+--------------------------------------
+
+model2_ver:
+--------------------------------------
+1. use average spearman correlation
+2. residual units = 2
+
+train time = 12 mins
+test time = 31 mins
+
+rmse(vd) = 4.94
+rmse(park) = 5.04
+mape(vd) = 7.49
+mape(park) = 1.85
+--------------------------------------
+
+model2_ver2:
+--------------------------------------
+1. use average spearman correlation
+2. residual units = 2
+
+train time = 12 mins
+test time = 31 mins
+
+rmse(vd) = 5.01
+rmse(park) = 5.72
+mape(vd) = 8.07
+mape(park) = 1.89
+--------------------------------------
+
+model3:
+--------------------------------------
+1. use average spearman correlation
+2. residual units = 3
+
+train time = 13 mins
+test time = 35 mins
+
+rmse(vd) = 4.98
+rmse(park) = 4.72
+mape(vd) = 8.04
+mape(park) = 2.07
+--------------------------------------
+
+model3_ver:
+--------------------------------------
+1. use average spearman correlation
+2. residual units = 3
+
+train time = 13 mins
+test time = 36 mins
+
+rmse(vd) = 4.93
+rmse(park) = 5.47
+mape(vd) = 7.96
+mape(park) = 3.10
+--------------------------------------
+
+model4:
+--------------------------------------
+1. use average spearman correlation
+2. residual units = 4
+
+train time = 13 mins
+test time = 41 mins
+
+rmse(vd) = 4.78
+rmse(park) = 4.75
+mape(vd) = 7.97
+mape(park) = 1.70
+--------------------------------------
+
+model4_ver:
+--------------------------------------
+1. use average spearman correlation
+2. residual units = 4
+
+train time = 14 mins
+test time = 41 mins
+
+rmse(vd) = 4.69
+rmse(park) = 4.99
+mape(vd) = 7.66
+mape(park) = 1.84
+--------------------------------------
+
+##--Use Average Kendall Correlation--##
+
+model5:
+--------------------------------------
+1. use average kendall correlation
+2. residual units = 1
+
+train time = 11 mins
+test time = 25 mins
+
+rmse(vd) = 5.24
+rmse(park) = 6.95
+mape(vd) = 7.92
+mape(park) = 2.22
+--------------------------------------
+
+model5_ver:
+--------------------------------------
+1. use average kendall correlation
+2. residual units = 1
+
+train time = 11 mins
+test time = 25 mins
+
+rmse(vd) = 5.00
+rmse(park) = 6.95
+mape(vd) = 7.89
+mape(park) = 1.98
+--------------------------------------
+
+model6:
+--------------------------------------
+1. use average kendall correlation
+2. residual units = 2
+
+train time = 11 mins
+test time = 31 mins
+
+rmse(vd) = 5.21
+rmse(park) = 7.30
+mape(vd) = 7.72
+mape(park) = 2.37
+--------------------------------------
+
+model7:
+--------------------------------------
+1. use average kendall correlation
+2. residual units = 3
+
+train time = 13 mins
+test time = 36 mins
+
+rmse(vd) = 4.77
+rmse(park) = 6.32
+mape(vd) = 7.64
+mape(park) = 2.06
+--------------------------------------
+
+model8:
+--------------------------------------
+1. use average kendall correlation
+2. residual units = 4
+
+train time = 13 mins
+test time = 41 mins
+
+rmse(vd) = 5.19
+rmse(park) = 4.55
+mape(vd) = 8.11
+mape(park) = 1.71
+--------------------------------------
+
+##--Use Every Week Average Spearman Correlation--##
+
+model9:
+--------------------------------------
+1. use every week average spearman correlation
+2. residual units = 1
+
+train time = 11 mins
+test time = 26 mins
+
+rmse(vd) = 4.91
+rmse(park) = 6.63
+mape(vd) = 7.63
+mape(park) = 1.88
+--------------------------------------
+
+model9_ver:
+--------------------------------------
+1. use every week average spearman correlation
+2. residual units = 1
+
+train time = 11 mins
+test time = 26 mins
+
+rmse(vd) = 4.60
+rmse(park) = 5.75
+mape(vd) = 7.27
+mape(park) = 2.17
+--------------------------------------
+
+model10:
+--------------------------------------
+1. use every week average spearman correlation
+2. residual units = 2
+
+train time = 12 mins
+test time = 31 mins
+
+rmse(vd) = 4.51
+rmse(park) = 5.68
+mape(vd) = 7.52
+mape(park) = 2.21
+--------------------------------------
+
+model10_ver:
+--------------------------------------
+1. use every week average spearman correlation
+2. residual units = 2
+
+train time = 12 mins
+test time = 30 mins
+
+rmse(vd) = 5.40
+rmse(park) = 5.60
+mape(vd) = 8.51
+mape(park) = 2.22
+--------------------------------------
+
+model11:
+--------------------------------------
+1. use every week average spearman correlation
+2. residual units = 3
+
+train time = 14 mins
+test time = 36 mins
+
+rmse(vd) = 5.56
+rmse(park) = 5.52
+mape(vd) = 8.57
+mape(park) = 2.12
+--------------------------------------
+
+model11_ver:
+--------------------------------------
+1. use every week average spearman correlation
+2. residual units = 3
+
+train time = 13 mins
+test time = 35 mins
+
+rmse(vd) = 4.81
+rmse(park) = 5.09
+mape(vd) = 7.75
+mape(park) = 1.70
+--------------------------------------
+
+model12:
+--------------------------------------
+1. use every week average spearman correlation
+2. residual units = 4
+
+train time = 13 mins
+test time = 39 mins
+
+rmse(vd) = 4.88
+rmse(park) = 5.47
+mape(vd) = 7.68
+mape(park) = 1.92
+--------------------------------------

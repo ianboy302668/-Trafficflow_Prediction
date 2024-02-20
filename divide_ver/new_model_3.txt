@@ -1,0 +1,120 @@
+model9:
+-----------------------------
+1. resnet units = 1
+2. no initial
+3. add correlation(kendall)
+4. correlation's hidden layer units = 375
+5. concat = 2
+
+train time = 12 mins
+test time = 23 mins
+
+rmse(vd) = 4.71
+rmse(park) = 6.97
+mape(vd) = 7.28
+mape(park) = 1.96
+-----------------------------
+
+## 比較hidden layer ##
+
+model1:
+-----------------------------
+1. resnet units = 1
+2. no initial
+3. add correlation(spearman)
+4. correlation's hidden layer units = 375
+5. concat = 2
+
+train time = 12 mins
+test time = 23 mins
+
+rmse(vd) = 4.60
+rmse(park) = 6.98
+mape(vd) = 7.21
+mape(park) = 2.06
+-----------------------------
+
+model2:
+-----------------------------
+1. resnet units = 1
+2. no initial
+3. add correlation(spearman)
+4. correlation's hidden layer units = 128
+5. concat = 2
+
+train time = 12 mins
+test time = 23 mins
+
+rmse(vd) = 4.73
+rmse(park) = 6.73
+mape(vd) = 7.31
+mape(park) = 2.29
+-----------------------------
+
+model3:
+-----------------------------
+1. resnet units = 2
+2. no initial
+3. add correlation(spearman)
+4. correlation's hidden layer units = 375
+5. concat = 2
+
+train time = 13 mins
+test time = 30 mins
+
+rmse(vd) = 4.96
+rmse(park) = 7.59
+mape(vd) = 7.88
+mape(park) = 2.45
+-----------------------------
+
+model4:
+-----------------------------
+1. resnet units = 2
+2. no initial
+3. add correlation(spearman)
+4. correlation's hidden layer units = 128
+5. concat = 2
+
+train time = 12 mins
+test time = 30 mins
+
+rmse(vd) = 4.92
+rmse(park) = 5.13
+mape(vd) = 7.72
+mape(park) = 2.19
+-----------------------------
+
+model5:
+-----------------------------
+1. resnet units = 3
+2. no initial
+3. add correlation(spearman)
+4. correlation's hidden layer units = 375
+5. concat = 2
+
+train time = 13 mins
+test time = 29 mins
+
+rmse(vd) = 4.99
+rmse(park) = 4.76
+mape(vd) = 8.00
+mape(park) = 1.81
+-----------------------------
+
+model6:
+-----------------------------
+1. resnet units = 3
+2. no initial
+3. add correlation(spearman)
+4. correlation's hidden layer units = 128
+5. concat = 2
+
+train time = 14 mins
+test time = 34 mins
+
+rmse(vd) = 4.97
+rmse(park) = 8.10
+mape(vd) = 7.96
+mape(park) = 1.82
+-----------------------------

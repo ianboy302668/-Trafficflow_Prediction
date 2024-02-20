@@ -1,0 +1,103 @@
+##重新訓練##
+
+model3:
+--------------------------------
+1.沒加關聯度
+
+train loss: 0.168578, val loss: 0.163227
+test 8月:
+rmse(vd) - 6.02
+rmse(park) - 4.47
+mape(vd) - 10.20
+mape(park) - 2.48
+--------------------------------
+
+model4:
+--------------------------------
+1.加關聯度
+
+train loss: 0.190988, val loss: 0.216817
+test 8月:
+rmse(vd) - 5.49
+rmse(park) - 4.13
+mape(vd) - 9.12
+mape(park) - 1.43
+--------------------------------
+
+##測試不同的resnet層數##
+
+model2:
+--------------------------------
+1. add correlation
+2. resnet layer = 8
+
+train loss: 0.181200, val loss: 0.190754
+test 8月:
+rmse(vd) = 5.66
+rmse(park) = 7.43
+mape(vd) = 9.40
+mape(park) = 2.52
+--------------------------------
+
+model5:
+--------------------------------
+1. add correlation
+2. resnet layer = 16
+
+train loss: 0.147935, val loss: 0.227894
+test 8月:
+rmse(vd) = 6.31
+rmse(park) = 6.91
+mape(vd) = 10.12
+mape(park) = 2.13
+--------------------------------
+
+model7:
+--------------------------------
+1. no correlation
+2. resnet layer = 8
+
+train loss: 0.201631, val loss: 0.197849
+test 8月:
+rmse(vd) = 6.06
+rmse(park) = 11.47
+mape(vd) = 9.59
+mape(park) = 3.85
+--------------------------------
+
+model8:
+--------------------------------
+1. no correlation
+2. resnet layer = 16
+
+train loss: 0.232641, val loss: 0.210556
+test 8月:
+rmse(vd) = 6.70
+rmse(park) = 5.12
+mape(vd) = 10.73
+mape(park) = 1.77
+--------------------------------
+
+model1:
+--------------------------------
+1. no correlation
+2. resnet layer = 4
+
+test 8月:
+rmse(vd) = 5.32
+rmse(park) = 4.19
+mape(vd) = 8.84
+mape(park) = 2.07
+--------------------------------
+
+model6:
+--------------------------------
+1. add correlation
+2. resnet layer = 4
+
+test 8月:
+rmse(vd) = 4.78
+rmse(park) = 6.33
+mape(vd) = 7.71
+mape(park) = 2.20
+--------------------------------

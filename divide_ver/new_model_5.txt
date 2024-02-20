@@ -1,0 +1,130 @@
+##--Use Kendall Correlation--##
+
+model1:
+--------------------------------------
+1. use kendall correlation
+2. residual units = 1
+
+train time = 11 mins
+test time = 26 mins
+
+rmse(vd) = 5.12
+rmse(park) = 7.28
+mape(vd) = 7.43
+mape(park) = 2.61
+--------------------------------------
+
+model1_ver:
+--------------------------------------
+1. use kendall correlation
+2. residual units = 1
+
+train time = 10 mins
+test time = 22 mins
+
+rmse(vd) = 4.95
+rmse(park) = 6.56
+mape(vd) = 7.49
+mape(park) = 2.26
+--------------------------------------
+
+model2:
+--------------------------------------
+1. use kendall correlation
+2. residual units = 2
+
+train time = 12 mins
+test time = 30 mins
+
+rmse(vd) = 5.18
+rmse(park) = 6.22
+mape(vd) = 8.30
+mape(park) = 2.59
+--------------------------------------
+
+model3:
+--------------------------------------
+1. use kendall correlation
+2. residual units = 3
+
+train time = 13 mins
+test time = 36 mins
+
+rmse(vd) = 4.64
+rmse(park) = 5.76
+mape(vd) = 7.00
+mape(park) = 2.19
+--------------------------------------
+
+model4:
+--------------------------------------
+1. use kendall correlation
+2. residual units = 4
+
+train time = 13 mins
+test time = 41 mins
+
+rmse(vd) = 4.84
+rmse(park) = 4.99
+mape(vd) = 7.84
+mape(park) = 1.92
+--------------------------------------
+
+
+##--Use Excepted Correlation--##
+
+model5:
+--------------------------------------
+1. use dtw
+2. residual units = 1
+
+train time = 11 mins
+test time = 22 mins
+
+rmse(vd) = 5.66
+rmse(park) = 5.95
+mape(vd) = 8.02
+mape(park) = 1.78
+--------------------------------------
+
+model6:
+--------------------------------------
+1. use dtw
+2. residual units = 2
+
+train time = 12 mins
+test time = 26 mins
+
+rmse(vd) = 4.85
+rmse(park) = 5.32
+mape(vd) = 7.41
+mape(park) = 2.13
+--------------------------------------
+
+model7:
+--------------------------------------
+1. use dtw
+2. residual units = 3
+
+train time = 13 mins
+test time = 34 mins
+
+rmse(vd) = 5.42
+rmse(park) = 4.80
+mape(vd) = 8.95
+mape(park) = 2.14
+--------------------------------------
+
+model8:
+--------------------------------------
+1. use dtw
+2. residual units = 4
+
+train time = 12 mins
+test time = 38 mins
+
+rmse(vd) = 5.03
+rmse(park) = 6.21
+mape(vd) = 8.03
+mape(park) = 2.38
+--------------------------------------

@@ -1,0 +1,537 @@
+##- NO Correlation and Stack to Deep -##
+
+model1:
+--------------------------------
+1. resnet units = 1
+2. no correlation
+3. stack deep direction
+
+train time = 11 mins
+test time = 20 mins
+
+rmse(vd) = 4.84
+rmse(park) = 5.62
+mape(vd) = 7.54
+mape(park) = 2.00
+--------------------------------
+
+model2:
+--------------------------------
+1. resnet units = 2
+2. no correlation
+3. stack deep direction
+
+train time = 11 mins
+test time = 26 mins
+
+rmse(vd) = 4.47
+rmse(park) = 6.08
+mape(vd) = 7.29
+mape(park) = 2.20
+--------------------------------
+
+model3:
+--------------------------------
+1. resnet units = 3
+2. no correlation
+3. stack deep direction
+
+train time = 13 mins
+test time = 32 mins
+
+rmse(vd) = 4.46
+rmse(park) = 7.58
+mape(vd) = 7.05
+mape(park) = 2.53
+--------------------------------
+
+model4:
+--------------------------------
+1. resnet units = 4
+2. no correlation
+3. stack deep direction
+
+train time = 13 mins
+test time = 36 mins
+
+rmse(vd) = 5.04
+rmse(park) = 7.73
+mape(vd) = 8.32
+mape(park) = 2.31
+--------------------------------
+
+##- ADD Correlation and Stack to Deep -##
+
+model5:
+--------------------------------
+1. resnet units = 1
+2. add correlation
+3. stack deep direction
+
+train time = 10 mins
+test time = 26 mins
+
+rmse(vd) = 4.49
+rmse(park) = 7.08
+mape(vd) = 7.28
+mape(park) = 2.04
+--------------------------------
+
+model6:
+--------------------------------
+1. resnet units = 2
+2. add correlation
+3. stack deep direction
+
+train time = 12 mins
+test time = 30 mins
+
+rmse(vd) = 4.61
+rmse(park) = 5.64
+mape(vd) = 7.19
+mape(park) = 1.98
+--------------------------------
+
+model7:
+--------------------------------
+1. resnet units = 3
+2. add correlation
+3. stack deep direction
+
+train time = 13 mins
+test time = 35 mins
+
+rmse(vd) = 5.01
+rmse(park) = 6.13
+mape(vd) = 7.58
+mape(park) = 3.05
+--------------------------------
+
+model8:
+--------------------------------
+1. resnet units = 4
+2. add correlation
+3. stack deep direction
+
+train time = 14 mins
+test time = 37 mins
+
+rmse(vd) = 4.79
+rmse(park) = 5.32
+mape(vd) = 7.59
+mape(park) = 2.17
+--------------------------------
+
+##- NO Correlation and Stack to Length -##
+
+model9:
+--------------------------------
+1. resnet units = 1
+2. no correlation
+3. stack length direction
+
+train time = 12 mins
+test time = 22 mins
+
+rmse(vd) = 4.87
+rmse(park) = 5.97
+mape(vd) = 7.11
+mape(park) = 1.84
+--------------------------------
+
+model10:
+--------------------------------
+1. resnet units = 2
+2. no correlation
+3. stack length direction
+
+train time = 12 mins
+test time = 27 mins
+
+rmse(vd) = 4.45
+rmse(park) = 5.54
+mape(vd) = 7.06
+mape(park) = 1.36
+--------------------------------
+
+model11:
+--------------------------------
+1. resnet units = 3
+2. no correlation
+3. stack length direction
+
+train time = 14 mins
+test time = 31 mins
+
+rmse(vd) = 5.08
+rmse(park) = 10.36
+mape(vd) = 7.89
+mape(park) = 6.72
+--------------------------------
+
+model12:
+--------------------------------
+1. resnet units = 4
+2. no correlation
+3. stack length direction
+
+train time = 14 mins
+test time = 35 mins
+
+rmse(vd) = 4.64
+rmse(park) = 7.84
+mape(vd) = 7.28
+mape(park) = 2.70
+--------------------------------
+
+##- ADD Correlation and Stack to Length -##
+
+model13:
+--------------------------------
+1. resnet units = 1
+2. add correlation
+3. stack length direction
+
+train time = 11 mins
+test time = 23 mins
+
+rmse(vd) = 4.66
+rmse(park) = 6.83
+mape(vd) = 7.27
+mape(park) = 3.02
+--------------------------------
+
+model14:
+--------------------------------
+1. resnet units = 2
+2. add correlation
+3. stack length direction
+
+train time = 12 mins
+test time = 24 mins
+
+rmse(vd) = 4.83
+rmse(park) = 4.92
+mape(vd) = 7.62
+mape(park) = 2.05
+--------------------------------
+
+model15:
+--------------------------------
+1. resnet units = 3
+2. add correlation
+3. stack length direction
+
+train time = 14 mins
+test time = 35 mins
+
+rmse(vd) = 5.30
+rmse(park) = 7.59
+mape(vd) = 8.15
+mape(park) = 3.09
+--------------------------------
+
+model16:
+--------------------------------
+1. resnet units = 4
+2. add correlation
+3. stack length direction
+
+train time = 15 mins
+test time = 40 mins
+
+rmse(vd) = 4.53
+rmse(park) = 6.06
+mape(vd) = 7.33
+mape(park) = 2.33
+--------------------------------
+
+##- ADD Correlation and Dropout and Stack to Deep -##
+
+model17:
+--------------------------------
+1. resnet units = 1
+2. add correlation and dropout
+3. stack deep direction
+
+train time = 11 mins
+test time = 25 mins
+
+rmse(vd) = 5.35
+rmse(park) = 6.29
+mape(vd) = 7.23
+mape(park) = 1.98
+--------------------------------
+
+model18:
+--------------------------------
+1. resnet units = 2
+2. add correlation and dropout
+3. stack deep direction
+
+train time = 12 mins
+test time = 30 mins
+
+rmse(vd) = 4.89
+rmse(park) = 4.88
+mape(vd) = 7.90
+mape(park) = 1.84
+--------------------------------
+
+model19:
+--------------------------------
+1. resnet units = 3
+2. add correlation and dropout
+3. stack deep direction
+
+train time = 12 mins
+test time = 35 mins
+
+rmse(vd) = 4.76
+rmse(park) = 6.08
+mape(vd) = 7.73
+mape(park) = 2.34
+--------------------------------
+
+model20:
+--------------------------------
+1. resnet units = 4
+2. add correlation and dropout
+3. stack deep direction
+
+train time = 14 mins
+test time = 41 mins
+
+rmse(vd) = 4.88
+rmse(park) = 5.26
+mape(vd) = 7.97
+mape(park) = 2.22
+--------------------------------
+
+##- ADD Correlation and Dropout and Stack to Deep (VD - Park) -##
+
+model21_ver1:
+--------------------------------
+1. resnet units = 1
+2. add correlation and dropout
+3. stack deep direction
+4. vd - park
+
+train time = 11 mins
+test time = 25 mins
+
+rmse(vd) = 4.29
+rmse(park) = 6.73
+mape(vd) = 6.76
+mape(park) = 1.85
+--------------------------------
+
+model21:
+--------------------------------
+1. resnet units = 1
+2. add correlation and dropout
+3. stack deep direction
+4. vd - park
+
+train time = 11 mins
+test time = 26 mins
+
+rmse(vd) = 4.57
+rmse(park) = 6.21
+mape(vd) = 6.49
+mape(park) = 1.73
+--------------------------------
+
+model22:
+--------------------------------
+1. resnet units = 2
+2. add correlation and dropout
+3. stack deep direction
+4. vd - park
+
+train time = 12 mins
+test time = 30 mins
+
+rmse(vd) = 4.75
+rmse(park) = 4.92
+mape(vd) = 6.77
+mape(park) = 1.89
+--------------------------------
+
+model22_ver2:
+--------------------------------
+1. resnet units = 2
+2. add correlation and dropout
+3. stack deep direction
+4. vd - park
+
+train time = 11 mins
+test time = 25 mins
+
+rmse(vd) = 4.63
+rmse(park) = 5.23
+mape(vd) = 7.46
+mape(park) = 1.65
+--------------------------------
+
+model23_ver1:
+--------------------------------
+1. resnet units = 3
+2. add correlation and dropout
+3. stack deep direction
+4. vd - park
+
+train time = 14 mins
+test time = 36 mins
+
+rmse(vd) = 5.09
+rmse(park) = 5.55
+mape(vd) = 8.24
+mape(park) = 1.99
+--------------------------------
+
+model23:
+--------------------------------
+1. resnet units = 3
+2. add correlation and dropout
+3. stack deep direction
+4. vd - park
+
+train time = 14 mins
+test time = 30 mins
+
+rmse(vd) = 4.68
+rmse(park) = 4.97
+mape(vd) = 6.84
+mape(park) = 1.73
+--------------------------------
+
+model24:
+--------------------------------
+1. resnet units = 4
+2. add correlation and dropout
+3. stack deep direction
+4. vd - park
+
+train time = 12 mins
+test time = 35 mins
+
+rmse(vd) = 4.82
+rmse(park) = 7.87
+mape(vd) = 7.73
+mape(park) = 2.12
+--------------------------------
+
+model24_ver:
+--------------------------------
+1. resnet units = 4
+2. add correlation and dropout
+3. stack deep direction
+4. vd - park
+
+train time = 14 mins
+test time = 41 mins
+
+rmse(vd) = 5.12
+rmse(park) = 5.62
+mape(vd) = 7.49
+mape(park) = 1.80
+--------------------------------
+
+##- NO Correlation and Dropout and Stack to Deep (VD - Park) -##
+
+model25:
+--------------------------------
+1. resnet units = 1
+2. no correlation
+3. stack deep direction
+4. vd - park
+
+train time = 10 mins
+test time = 24 mins
+
+rmse(vd) = 4.40
+rmse(park) = 6.20
+mape(vd) = 6.92
+mape(park) = 2.15
+--------------------------------
+
+model25_ver:
+--------------------------------
+1. resnet units = 1
+2. no correlation
+3. stack deep direction
+4. vd - park
+
+train time = 11 mins
+test time = 23 mins
+
+rmse(vd) = 4.75
+rmse(park) = 8.94
+mape(vd) = 7.11
+mape(park) = 2.20
+--------------------------------
+
+model26:
+--------------------------------
+1. resnet units = 2
+2. no correlation
+3. stack deep direction
+4. vd - park
+
+train time = 12 mins
+test time = 25 mins
+
+rmse(vd) = 5.56
+rmse(park) = 6.18
+mape(vd) = 7.57
+mape(park) = 2.87
+--------------------------------
+
+model27:
+--------------------------------
+1. resnet units = 3
+2. no correlation
+3. stack deep direction
+4. vd - park
+
+train time = 13 mins
+test time = 31 mins
+
+rmse(vd) = 4.80
+rmse(park) = 5.96
+mape(vd) = 7.32
+mape(park) = 2.21
+--------------------------------
+
+model28:
+--------------------------------
+1. resnet units = 4
+2. no correlation
+3. stack deep direction
+4. vd - park
+
+train time = 13 mins
+test time = 38 mins
+
+rmse(vd) = 5.67
+rmse(park) = 6.40
+mape(vd) = 8.67
+mape(park) = 2.17
+--------------------------------
+
+model28_ver:
+--------------------------------
+1. resnet units = 4
+2. no correlation
+3. stack deep direction
+4. vd - park
+
+train time = 13 mins
+test time = 38 mins
+
+rmse(vd) = 4.57
+rmse(park) = 7.81
+mape(vd) = 7.38
+mape(park) = 3.37
+--------------------------------

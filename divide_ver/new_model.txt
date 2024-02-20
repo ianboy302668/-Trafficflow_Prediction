@@ -1,0 +1,119 @@
+model1:
+---------------------------
+1. resnet unit = 4
+2. have weight and bias inital
+3. no correlation
+
+train time = 13 mins
+test time = 39 mins
+
+rmse(vd) = 4.43
+rmse(park) = 7.63
+mape(vd) = 7.14
+mape(park) = 2.23
+---------------------------
+
+model14:
+---------------------------
+1. resnet unit = 8
+2. have weight and bias inital
+3. no correlation
+
+train time = 16 mins
+test time = 53 mins
+
+rmse(vd) = 4.60
+rmse(park) = 10.65
+mape(vd) = 7.48
+mape(park) = 3.54
+---------------------------
+
+model3:
+---------------------------
+1. resnet unit = 12
+2. have weight and bias inital
+3. no correlation
+
+train time = 20 mins
+test time = 69 mins
+
+rmse(vd) = 4.64
+rmse(park) = 6.20
+mape(vd) = 7.49
+mape(park) = 2.15
+---------------------------
+
+model4:
+---------------------------
+1. resnet unit = 16
+2. have weight and bias inital
+3. no correlation
+
+train time = 24 mins
+test time = 87 mins
+
+rmse(vd) = 4.72
+rmse(park) = 6.07
+mape(vd) = 7.63
+mape(park) = 2.76
+---------------------------
+
+model5:
+---------------------------
+1. resnet unit = 4
+2. have weight and bias inital
+3. add correlation
+
+train time = 13 mins
+test time = 36 mins
+
+rmse(vd) = 4.58
+rmse(park) = 8.06
+mape(vd) = 7.54
+mape(park) = 3.68
+---------------------------
+
+model6:
+---------------------------
+1. resnet unit = 8
+2. have weight and bias inital
+3. add correlation
+
+train time = 17 mins
+test time = 47 mins
+
+rmse(vd) = 4.67
+rmse(park) = 12.93
+mape(vd) = 7.55
+mape(park) = 6.26
+---------------------------
+
+model7:
+---------------------------
+1. resnet unit = 12
+2. have weight and bias inital
+3. add correlation
+
+train time = 20 mins
+test time = 80 mins
+
+rmse(vd) = 4.58
+rmse(park) = 7.35
+mape(vd) = 7.48
+mape(park) = 2.02
+---------------------------
+
+model8:
+---------------------------
+1. resnet unit = 16
+2. have weight and bias inital
+3. add correlation
+
+train time = 24 mins
+test time = 100 mins
+
+rmse(vd) = 4.49
+rmse(park) = 9.89
+mape(vd) = 7.41
+mape(park) = 3.01
+---------------------------

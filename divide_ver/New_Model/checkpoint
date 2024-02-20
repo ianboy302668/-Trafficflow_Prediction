@@ -1,2 +1,2 @@
-model_checkpoint_path: "D:/YZU/Master/paper/old_paper/Xinyi_park_vd/divide_ver/New_Model/save_net.ckpt-100"
-all_model_checkpoint_paths: "D:/YZU/Master/paper/old_paper/Xinyi_park_vd/divide_ver/New_Model/save_net.ckpt-100"
+model_checkpoint_path: "D:/YZU/Master/paper/old_paper/Xinyi_park_vd/divide_ver/New_Model/save_net_1.ckpt-100"
+all_model_checkpoint_paths: "D:/YZU/Master/paper/old_paper/Xinyi_park_vd/divide_ver/New_Model/save_net_1.ckpt-100"

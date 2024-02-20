@@ -413,7 +413,7 @@ def load_data(len_closeness=3, len_period=1, len_trend=1, meta_data=True):
                 #park data
                 occupy_data = list(park_csv[park_time_title[t]].values)
                 occupy_data = checkvalue(occupy_data, park_latlon, park_id, state=True)
-                print(len(occupy_data)) # debug
+                # print(len(occupy_data)) # debug
                 occupy_data = np.reshape(occupy_data, (15, 16))
 
                 #vd data
